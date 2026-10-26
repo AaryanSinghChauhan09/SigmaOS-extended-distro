@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-extended-distro"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Extended distro matrix"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-extended-distro"
+readme = "README.md"
+keywords = ["distro", "extended", "matrix"]
+categories = ["development-tools"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
