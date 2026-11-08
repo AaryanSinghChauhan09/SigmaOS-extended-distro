@@ -1,17 +1,10 @@
 [package]
-name = "sigmaos-extended-distro"
+name = "sigmaos_extended_distro"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Project"]
-description = "Extended distro matrix"
-license = "GPL-3.0-or-later"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-extended-distro"
-readme = "README.md"
-keywords = ["distro", "extended", "matrix"]
-categories = ["development-tools"]
+license = "MIT"
+description = "SigmaOS extended-distro component inspired by Linux Mint / Omarchy / Arch Linux."
 
-[dependencies]
-sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
-
-[profile.release]
-opt-level = 3
+[lib]
+name = "sigmaos_extended_distro"
+path = "src/lib.rs"
