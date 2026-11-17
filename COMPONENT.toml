@@ -3,12 +3,12 @@ name = "SigmaOS-extended-distro"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "extended-distro component"
+description = "SigmaOS extended distribution features"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
